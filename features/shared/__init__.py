@@ -1,1 +1,1 @@
-from models import Company, Person
+from features.shared.models import Company, Person
