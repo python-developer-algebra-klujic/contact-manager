@@ -22,7 +22,3 @@ class Person:
             return f'{self._full_name()} ({self.date_of_birth.strftime('%Y')}.)'
         else:
             return f'{self._full_name()}'
-
-
-class Company:
-    pass
