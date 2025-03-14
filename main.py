@@ -1,1 +1,1 @@
-from features import Organization
+from features import Organization, OrganizationService
