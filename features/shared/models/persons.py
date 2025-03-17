@@ -19,6 +19,6 @@ class Person:
     def __repr__(self):
         if self.date_of_birth != None:
             # return f'{self.first_name} {self.last_name} ({self.date_of_birth.strftime('%Y')}.)'
-            return f'{self._full_name()} ({self.date_of_birth.strftime('%Y')}.)'
+            return f'{self.full_name} ({self.date_of_birth.strftime('%Y')}.)'
         else:
-            return f'{self._full_name()}'
+            return f'{self.full_name}'
