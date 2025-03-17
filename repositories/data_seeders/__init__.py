@@ -1,0 +1,1 @@
+from repositories.data_seeders.faker_data_seeder import FakerDataSeeder

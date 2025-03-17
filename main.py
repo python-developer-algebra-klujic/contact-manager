@@ -1,10 +1,8 @@
-from features import Company
+from repositories import FakerDataSeeder
 
-demo_company = Company(
-    1,
-    'Pajdo und Jaranen GmbH',
-    '123456789',
-    'Republika Pescenica'
-)
+faker = FakerDataSeeder('hr_HR')
+gen_contact = faker.seed_contacts()
 
-print(demo_company)
+print(gen_contact)
+print(gen_contact.date_of_birth.strftime('%d.%m.%Y %H:%M:%S'))
+print(gen_contact.website)
