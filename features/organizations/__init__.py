@@ -1,2 +1,2 @@
-from models import Organization
-from services import OrganizationService
+from features.organizations.models import Organization
+from features.organizations.services import OrganizationService

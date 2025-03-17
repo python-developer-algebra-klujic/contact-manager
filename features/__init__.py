@@ -1,2 +1,2 @@
-from shared import Company, Person
-from organizations import Organization, OrganizationService
+from features.shared import Company, Person
+from features.organizations import Organization, OrganizationService
