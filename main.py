@@ -1,5 +1,6 @@
 from repositories import ContactSeeder
 
+
 faker = ContactSeeder('hr_HR')
 gen_contact = faker.seed_contact()
 print(gen_contact)
