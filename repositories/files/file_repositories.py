@@ -11,7 +11,7 @@ class FileRepository:
         self._init_app_content()
 
     def _init_app_content(self):
-        self.load_from_file()
+        self.app_content = self.load_from_file()
 
     # Create
     def save_to_file(self, content):
@@ -47,14 +47,15 @@ class FileRepository:
     # Read
     def load_from_file(self):
         if self.is_json:
-            self._load_from_json()
+            return self._load_from_json()
         else:
             self._load_from_text()
 
     def _load_from_json(self):
         try:
             with open(self.file_path, 'r') as file_reader:
-                self.app_content = json.load(file_reader)
+                json_content = json.load(file_reader)
+                return json_content
         except Exception as ex:
             print(f'Dogodila se greska {ex}.')
 

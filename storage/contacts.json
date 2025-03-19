@@ -108,5 +108,65 @@
         "email": "petricevicmihael@example.org",
         "phone": "021 021 776",
         "website": "https://www.zezelic.info/"
+    },
+    {
+        "id": 1,
+        "first_name": "Josip",
+        "last_name": "Raljevi\u0107",
+        "date_of_birth": "1971-06-23T00:00:00",
+        "full_name": "Josip Raljevi\u0107",
+        "email": "gandrasek@example.org",
+        "phone": "021 168 154",
+        "website": "https://www.baricevic.com/"
+    },
+    {
+        "id": 1,
+        "first_name": "Dejan",
+        "last_name": "Duvan\u010di\u0107",
+        "date_of_birth": "2008-01-29T00:00:00",
+        "full_name": "Dejan Duvan\u010di\u0107",
+        "email": "borosakterezija@example.org",
+        "phone": "092 6246 009",
+        "website": "http://www.komar.info/"
+    },
+    {
+        "id": 1,
+        "first_name": "Nika",
+        "last_name": "Kova\u010di\u0107",
+        "date_of_birth": "1974-11-23T00:00:00",
+        "full_name": "Nika Kova\u010di\u0107",
+        "email": "uilinovic@example.net",
+        "phone": "072 102 937",
+        "website": "https://www.jakovic.net/"
+    },
+    {
+        "id": 1,
+        "first_name": "Anica",
+        "last_name": "Brcko",
+        "date_of_birth": "2021-06-09T00:00:00",
+        "full_name": "Anica Brcko",
+        "email": "vjekoslav25@example.net",
+        "phone": "034 043 481",
+        "website": "https://lukinic.biz/"
+    },
+    {
+        "id": 1,
+        "first_name": "Mateo",
+        "last_name": "Andrijevi\u0107",
+        "date_of_birth": "2005-03-30T00:00:00",
+        "full_name": "Mateo Andrijevi\u0107",
+        "email": "miasuran@example.net",
+        "phone": "01 5124 263",
+        "website": "https://vrhovec.biz/"
+    },
+    {
+        "id": 1,
+        "first_name": "Igor",
+        "last_name": "Majdeni\u0107",
+        "date_of_birth": "1982-03-20T00:00:00",
+        "full_name": "Igor Majdeni\u0107",
+        "email": "leabarbieri@example.com",
+        "phone": "031 135 261",
+        "website": "http://gabud.info/"
     }
 ]
