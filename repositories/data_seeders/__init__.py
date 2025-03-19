@@ -1,0 +1,4 @@
+from repositories.data_seeders.contacts_seeders import ContactSeeder
+from repositories.data_seeders.customers_seeders import CustomerSeeder
+from repositories.data_seeders.employees_seeders import EmployeeSeeder
+from repositories.data_seeders.organizations_seeders import OrganizationSeeder

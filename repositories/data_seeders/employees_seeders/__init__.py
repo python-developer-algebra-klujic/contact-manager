@@ -1,0 +1,1 @@
+from repositories.data_seeders.employees_seeders.employees_seeder import EmployeeSeeder
