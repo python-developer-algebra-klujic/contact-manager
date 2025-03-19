@@ -5,7 +5,7 @@ from datetime import datetime as dt
 from features import Contact
 
 
-class FakerDataSeeder:
+class ContactSeeder:
     def __init__(self,
                  localization: str = ''):
         self.localization = localization

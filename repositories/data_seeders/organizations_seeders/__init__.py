@@ -1,0 +1,1 @@
+from repositories.data_seeders.organizations_seeders.organizations_seeder import OrganizationSeeder

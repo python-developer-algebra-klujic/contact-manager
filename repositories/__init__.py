@@ -1,1 +1,4 @@
-from repositories.data_seeders import FakerDataSeeder
+from repositories.data_seeders import (ContactSeeder,
+                                       CustomerSeeder,
+                                       EmployeeSeeder,
+                                       OrganizationSeeder)

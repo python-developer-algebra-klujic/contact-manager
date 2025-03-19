@@ -1,6 +1,6 @@
-from repositories import FakerDataSeeder
+from repositories import ContactSeeder
 
-faker = FakerDataSeeder('hr_HR')
+faker = ContactSeeder('hr_HR')
 gen_contact = faker.seed_contact()
 print(gen_contact)
 print(gen_contact.date_of_birth.strftime('%A %d.%m.%Y %H:%M:%S'))
