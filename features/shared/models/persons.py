@@ -10,7 +10,7 @@ class Person:
         self.id = id
         self.first_name = first_name
         self.last_name = last_name
-        self.date_of_birth = date_of_birth
+        self.date_of_birth = date_of_birth.isoformat()
         self.full_name = self._full_name()
 
     def _full_name(self):

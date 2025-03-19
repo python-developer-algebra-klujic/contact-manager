@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "first_name": "Kristina",
+        "last_name": "Bra\u010dun",
+        "date_of_birth": "1983-03-10T00:00:00",
+        "full_name": "Kristina Bra\u010dun",
+        "email": "bozanicdalibor@example.net",
+        "phone": "098 1423 755",
+        "website": "http://milatic.org/"
+    },
+    {
+        "id": 1,
+        "first_name": "Kristina",
+        "last_name": "Hranj",
+        "date_of_birth": "2021-04-17T00:00:00",
+        "full_name": "Kristina Hranj",
+        "email": "nikolatrnski@example.net",
+        "phone": "098 8406 694",
+        "website": "http://www.kadija.com/"
+    },
+    {
+        "id": 1,
+        "first_name": "Vedran",
+        "last_name": "\u0160ali\u0107",
+        "date_of_birth": "1998-12-08T00:00:00",
+        "full_name": "Vedran \u0160ali\u0107",
+        "email": "kmihalic@example.org",
+        "phone": "022 031 383",
+        "website": "https://www.vrabelj.net/"
+    },
+    {
+        "id": 1,
+        "first_name": "Kata",
+        "last_name": "Modri\u0107",
+        "date_of_birth": "2002-06-20T00:00:00",
+        "full_name": "Kata Modri\u0107",
+        "email": "sedlarmladen@example.net",
+        "phone": "023 287 853",
+        "website": "http://kraljic.com.hr/"
+    },
+    {
+        "id": 1,
+        "first_name": "Jozo",
+        "last_name": "Salopek",
+        "date_of_birth": "2013-04-16T00:00:00",
+        "full_name": "Jozo Salopek",
+        "email": "rraspor@example.net",
+        "phone": "043 432 585",
+        "website": "http://www.bosilj.biz/"
+    },
+    {
+        "id": 1,
+        "first_name": "Mile",
+        "last_name": "\u0160tefovi\u0107",
+        "date_of_birth": "2015-03-07T00:00:00",
+        "full_name": "Mile \u0160tefovi\u0107",
+        "email": "vrhovecfilip@example.com",
+        "phone": "072 080 890",
+        "website": "https://ban.org/"
+    },
+    {
+        "id": 1,
+        "first_name": "Lovro",
+        "last_name": "Luk\u0161a",
+        "date_of_birth": "2012-12-28T00:00:00",
+        "full_name": "Lovro Luk\u0161a",
+        "email": "slavkoborak@example.org",
+        "phone": "034 848 059",
+        "website": "https://www.dujmovic.hr/"
+    },
+    {
+        "id": 1,
+        "first_name": "Lovro",
+        "last_name": "Prelec",
+        "date_of_birth": "2021-07-11T00:00:00",
+        "full_name": "Lovro Prelec",
+        "email": "josipakocijancic@example.com",
+        "phone": "022 163 563",
+        "website": "https://sardelic.info/"
+    },
+    {
+        "id": 1,
+        "first_name": "Nada",
+        "last_name": "Martin\u010devi\u0107",
+        "date_of_birth": "1996-04-27T00:00:00",
+        "full_name": "Nada Martin\u010devi\u0107",
+        "email": "nmartincevic@example.org",
+        "phone": "097 7877 115",
+        "website": "http://bucanac.info/"
+    },
+    {
+        "id": 1,
+        "first_name": "Antonija",
+        "last_name": "Mari\u0107",
+        "date_of_birth": "2007-09-05T00:00:00",
+        "full_name": "Antonija Mari\u0107",
+        "email": "jnorac@example.org",
+        "phone": "033 104 782",
+        "website": "http://maras.com.hr/"
+    },
+    {
+        "id": 1,
+        "first_name": "Laura",
+        "last_name": "Valjeti\u0107",
+        "date_of_birth": "2000-06-10T00:00:00",
+        "full_name": "Laura Valjeti\u0107",
+        "email": "petricevicmihael@example.org",
+        "phone": "021 021 776",
+        "website": "https://www.zezelic.info/"
+    }
+]

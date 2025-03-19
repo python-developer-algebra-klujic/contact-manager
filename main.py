@@ -1,15 +1,15 @@
-from repositories import ContactSeeder
+from repositories import ContactSeeder, FileRepository
 
 
-faker = ContactSeeder('hr_HR')
-gen_contact = faker.seed_contact()
-print(gen_contact)
-print(gen_contact.date_of_birth.strftime('%A %d.%m.%Y %H:%M:%S'))
-print(gen_contact.website)
-print()
+def main():
+    file_repo = FileRepository('storage/contacts.json')
+    faker = ContactSeeder('hr_HR')
+    gen_contact = faker.seed_contact()
+    file_repo.save_to_file(gen_contact)
 
-generated_contacts = faker.seed_contacts(5)
-for contact in generated_contacts:
-    print(contact)
-    print(contact.date_of_birth.strftime('%A %d.%m.%Y'))
-    print(contact.website)
+    generated_contacts = faker.seed_contacts(5)
+    file_repo.save_to_file(generated_contacts)
+
+
+if __name__ == '__main__':
+    main()
