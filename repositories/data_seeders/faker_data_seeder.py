@@ -1,3 +1,4 @@
+from typing import List
 from faker import Faker
 from datetime import datetime as dt
 
@@ -12,14 +13,13 @@ class FakerDataSeeder:
 
         self._initialize_faker()
 
-
     def _initialize_faker(self):
         if self.localization:
             self.faker_obj = Faker(self.localization)
         else:
             self.faker_obj = Faker()
 
-    def seed_contacts(self):
+    def seed_contact(self) -> Contact:
         first_name, last_name = self.faker_obj.name().split(' ')
         email = self.faker_obj.email()
         phone = self.faker_obj.phone_number()
@@ -35,3 +35,10 @@ class FakerDataSeeder:
                        website,
                        date_of_birth)
 
+    def seed_contacts(self, number: int = 0) -> List[Contact]:
+        contacts = []
+
+        for _ in range(number):
+            contacts.append(self.seed_contact())
+
+        return contacts
